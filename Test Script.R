@@ -1,1 +1,1 @@
-#This is an R Scrip
+#This is an R Script
