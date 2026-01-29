@@ -32,3 +32,11 @@ highPeaks$elev
 
 highPeaks[1, 1]
 highPeaks[, 1]
+
+
+#Homework 1 ----
+
+snowIn <- c(2.5, 3, 5, 4.5)
+
+snowCm <- snowIn * 2.54
+
