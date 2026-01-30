@@ -60,10 +60,28 @@ farenheitTemps <- (celsiusTemps * 9/5 + 32)
 
 # Homework 1 ----
 
-# Question #1
+# Question #1:
 
 highPeaks2$elev * 0.3048
 
-# Question #2
+# Question #2:
 
+N/A
 
+# Question #3:
+
+max <- 0
+longestTrip <- 0
+
+for (i in 1:4) {
+  if (highPeaks2$roundTrip[i] > max){
+    max = highPeaks2$roundTrip[i]
+    longestTrip = i
+  }
+}
+
+peakWithLongestTrip <- highPeaks2[longestTrip, ]
+
+# Question #4:
+
+N/A
